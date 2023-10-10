@@ -2470,8 +2470,8 @@ print(move_stage_4)
 current_position = random_scramble(current_position, move_stage_4)
 """
 # This will show what the cube looks like after all the stages of Thistleweite's algorithm
-for cube in object_list:
-    cube.check_colour()
+"""for cube in object_list:
+    cube.check_colour()"""
 
 
 def main(move_up, move_right, move_down, move_left, move_z_1, move_z_2, current_position):
